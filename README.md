@@ -33,7 +33,7 @@ MCB185 repository and scour the Internet.
 Rules
 -----
 
-Even though it's a good idea to collaborate with others any time you do
+Even though it's a good idea to collaborate with others any time you perform
 experiments or write code, this exam is meant to assess your personal skills
 and knowledge. Here are the rules of this game.
 
@@ -56,15 +56,14 @@ Part 2: Data Files
 This task is designed to test your ability to work with text files of genomic
 data using typical Linux CLI tools like `grep` and `sort`.
 
-Clone the E.coli repo at `https://github.com/iankorf/E.coli`.
+Clone this repo `https://github.com/iankorf/E.coli` to get some data files for
+the tasks ahead.
 
-1. Perform md5 checksums on all of the files in the E.coli repo
-2. How many chromosomes are there in the E. coli genome?
-3. According to the `*.faa` file, how many proteins does it encode?
-4. According to the `*.gbff` file, how many coding sequences are there?
-5. Reconcile the differences between the last 2 questions.
-6. How many `tRNA` features are found in the `*.gff` file?
-7. How many of each type of features are there in the `*.gff` file?
+1. According to the `*.faa` file, how many proteins does it encode?
+2. According to the `*.gbff` file, how many coding sequences are there?
+3. Reconcile the differences between the last 2 questions.
+4. How many `tRNA` features are found in the `*.gff` file?
+5. How many of each type of features are there in the `*.gff` file?
 
 Provide your answers in a document in your repo. Include the command lines and
 their outputs.
@@ -82,7 +81,7 @@ are similar to E. coli protein NP_414608.1.
 Using `conda`, install `blast-legacy` from the `bioconda` channel. Then format
 the blast database with `formatdb` and search it with `blastall -p blastp`. To
 get the similar proteins, set the E-value to 1e-5. You may also like to use
-tabular output to make it easier to get the matching protein name. Find these
+tabular output to make it easier to get the matching protein names. Find these
 options in the usage statment (of course).
 
 Document this task in a text file that shows the command lines and the output.
@@ -116,7 +115,7 @@ Requirements:
 	+ entropy threshold (default 1.4 bits)
 + There is an option for soft masking (lowercase instead of Ns)
 
-This is what the output should look like for the E.coli genome.
+An example output for the E. coli genome is shown below.
 
 ```
 >NC_000913.3 Escherichia coli str. K-12 substr. MG1655, complete genome
@@ -134,8 +133,7 @@ GCGATgattgaaaaaaccattaGCGGCCAGGATGCTTTACCCAATATCAGCGATGCCGAA
 
 ### K-mer Locations
 
-This task is designed to test your ability to write an efficient implementation
-for a simple comparison program.
+This task is designed to test your ability to solve problems creatively.
 
 Write a program that reports the locations of k-mers in a FASTA file of DNA.
 
@@ -159,12 +157,25 @@ ACG 5
 CGT 6
 ```
 
+### Kozak Concensus
+
+This task is designed to test your ability to parse complex text data into a
+tidy data structure.
+
+Write a program that creates a PWM of the Kozak concensus for the E. coli
+genome.
+
++ The input file is `*.gbff` format
++ The output file is JSON
+
 
 Part 5: Meet with Ian
 ---------------------
 
 Schedule an appointment to meet with Ian to determine if you passed and what
-level of pass you achieved.
+level of pass you achieved. You don't need to perform every task perfectly in
+order to pass the exam. You may take the exam more than once to turn a fail
+into a pass or to increase the level of pass.
 
 + Bronze - you passed, but there are a few problems
 + Silver - you passed, but there are some things that could be done better
