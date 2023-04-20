@@ -61,7 +61,7 @@ the tasks ahead.
 
 1. According to the `*.faa` file, how many proteins does it encode?
 2. According to the `*.gbff` file, how many coding sequences are there?
-3. Reconcile the differences between the last 2 questions.
+3. Reconcile the differences between the previous 2 questions.
 4. How many `tRNA` features are found in the `*.gff` file?
 5. How many of each type of features are there in the `*.gff` file?
 
@@ -166,7 +166,17 @@ Write a program that creates a PWM of the Kozak concensus for the E. coli
 genome.
 
 + The input file is `*.gbff` format
-+ The output file is JSON
++ The output format is JSON
+
+## Overlap Problem
+
+This task is designed to test your ability to write an algorithm that balances
+speed, memory usage, and complexity.
+
+Write a program that reports features in file1 that overlap features in file2.
+
++ Input files may be GFF or BED
++ Output format is up to you
 
 
 Part 5: Meet with Ian
