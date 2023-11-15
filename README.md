@@ -168,7 +168,7 @@ genome.
 + The input file is `*.gbff` format
 + The output format is JSON
 
-## Overlap Problem
+### Overlap Problem
 
 This task is designed to test your ability to write an algorithm that balances
 speed, memory usage, and complexity.
