@@ -8,7 +8,7 @@ have some experience in the following technologies:
 + Linux - we do everything in Linux/Unix
 + GitHub - where all of our code is maintained
 + Markdown - how documents are formatted
-+ Conda - how external software gets installed
++ Conda - how external software gets installed (usually)
 + Python - the default programming language, but not the only one
 + FASTA, FASTQ - standard sequence formats
 + GFF, BED, SAM - standard annotation and alignment formats
@@ -40,6 +40,7 @@ and knowledge. Here are the rules of this game.
 + You may not get help from anyone
 + You may not import any modules that require installation
 + You may look things up on the internet, but not copy-paste anything
++ You may not use AI to do your coding or assit it
 + You may download files, but not source code
 
 
