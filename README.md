@@ -99,6 +99,11 @@ Each program below will be graded on the following criteria:
 4. Correct - does the program solve the problem as stated?
 5. Efficient - does the program waste memory or time?
 
+### FASTA Parser
+
+Write a function that provides a way to read FASTA files. Put it in a module
+and import it for the remaining tasks.
+
 ### Entropy Filter
 
 This task is designed to test your ability to make a simple sliding window
@@ -169,7 +174,7 @@ genome.
 + The input file is `*.gbff` format
 + The output format is JSON
 
-### Overlap Problem
+### Overlapping Features
 
 This task is designed to test your ability to write an algorithm that balances
 speed, memory usage, and complexity.
